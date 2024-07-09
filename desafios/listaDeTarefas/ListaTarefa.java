@@ -42,7 +42,7 @@ public class ListaTarefa {
 
     // método que retorna as descrições das tarefas
     public String obterDescricoesTarefas(int index) {
-        if (index >= 0 && index < this.tarefaList.size()){
+        if (index >= 0 && index < this.tarefaList.size()) {
             return this.tarefaList.get(index).obterDescricao();
         }
 
