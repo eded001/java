@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String args[]) {
+        // operação que não aceita nenhum argumento e retorna um resultado do tipo T
         Supplier<String> helloWorld = () -> "hello world";
 
         List<String> printMsg = Stream.generate(helloWorld).limit(5).collect(Collectors.toList());
