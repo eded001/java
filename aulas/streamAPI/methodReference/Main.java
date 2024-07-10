@@ -7,6 +7,7 @@ public class Main {
         Pessoa edgar = new Pessoa();
         edgar.setName("Edgar");
 
+        // operação que não aceita nenhum argumento e retorna um valor do tipo T
         Supplier<String> nameSupplier = edgar::getName;
 
         System.out.println(nameSupplier.get());
