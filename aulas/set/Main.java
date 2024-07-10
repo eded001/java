@@ -1,4 +1,4 @@
-// package aulas.set;
+package aulas.set;
 
 import java.util.Set;
 import java.util.HashSet;
