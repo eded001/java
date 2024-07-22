@@ -1,12 +1,11 @@
-package aulas.list;
+package aulas.collection.list.arrayList;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
     public static void main(String args[]) {
-        List<Integer> arrayInt = new ArrayList<>();
+        ArrayList<Integer> arrayInt = new ArrayList<>();
         Random random = new Random();
 
         for(int c = 0; c < 10; c++) {
